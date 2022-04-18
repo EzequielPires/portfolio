@@ -1,0 +1,20 @@
+.footer {
+    background: #151515;
+    border-top: 1px solid #333;
+    span {
+        font-size: .875rem;
+        color: #fff;
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600 !important;
+    color: #fff;
+    text-decoration: none;
+    img {
+        margin-right: .5rem;
+        height: 48px;
+    }
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8257E5;
+  border-radius: 20px;
+  border: 3px solid #222;
+}
+:root {
+  --main: #8257E5;
+  --gradient: linear-gradient(180deg, #FF1CF7 0%, #8257E5 100%);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  font-family: "Open Sans", sans-serif !important;
+  box-sizing: border-box;
+}
+.typing-animation {
+  animation: blinkCursor 800ms infinite normal, typing 4s steps(80) normal;
+
+}
+@keyframes blinkCursor{
+  from {
+      border-right-color: rgba(255, 255, 255, .75);
+  }
+  to {
+      border-right-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 464px;
+  }
+}
