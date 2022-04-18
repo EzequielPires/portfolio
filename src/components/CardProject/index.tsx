@@ -11,7 +11,7 @@ export function CardProject({title, description, image, link}) {
                 <span className={styles.title}>{title}</span>
                 <p>{description}</p>
                 <a href="">Tecnologias usadas no projeto</a>
-                <a className={styles.btn} href={link} target="_blank"><FiLink /> Visualizar</a>
+                <a className={styles.btn} href={link} target="_blank" rel="noreferrer"><FiLink /> Visualizar</a>
             </div>
         </div>
     )
