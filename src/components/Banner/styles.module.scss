@@ -13,18 +13,21 @@
     }
     h1 {
         width: unset;
-        font-size: 64px;
+        font-size: 56px;
         font-weight: 600;
         color: #8257e5;
         margin-bottom: 0.75rem;
         border-right: 2px solid #fff;
         white-space: nowrap;
         overflow: hidden;
+        span {
+            font-size: 2rem;
+        }
     }
 }
 .group_buttons {
     margin-top: 48px;
-    button {
+    .btn {
         width: 220px;
         height: 48px;
         display: flex;
@@ -35,6 +38,7 @@
         border-radius: 4px;
         color: #fff;
         font-weight: 600;
+        text-decoration: none;
         svg {
             margin-right: 0.5rem;
         }
