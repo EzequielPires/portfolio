@@ -12,7 +12,7 @@ export function Technologies() {
             <div className="container">
                 <h4>Principais tecnologias</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <div className="d-flex gap-4 mt-5">
+                <div className="d-flex flex-wrap gap-4 mt-5">
                     <div className={styles.card}>
                         <img src={Next.src} alt="" />
                     </div>

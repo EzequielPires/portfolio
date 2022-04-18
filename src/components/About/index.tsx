@@ -6,14 +6,14 @@ import { FiDownloadCloud } from "react-icons/fi";
 export function About() {
     return (
         <div className={styles.about}>
-            <div className="container d-flex justify-content-between gap-5">
+            <div className="container d-flex flex-wrap align-items-center justify-content-between gap-5">
                 <div className={styles.avatar}>
                     <img src={Avatar.src} alt="" />
                 </div>
                 <div className={styles.content}>
                     <h4>Sobre mim</h4>
                     <h6>Catalão - Go, Brasil</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id egestas dui. Nullam finibus aliquam enim quis faucibus. Aenean ac commodo dolor, nec bibendum velit.</p>
+                    <p>Meu nome é Ezequiel Pires e Silva. Sou desenvolvedor Front-end e UI Designer. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.</p>
                     <div className={styles.icons + " d-flex gap-4 mt-5"}>
                         <FaWhatsapp />
                         <FaInstagram />

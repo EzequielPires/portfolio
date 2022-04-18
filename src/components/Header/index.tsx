@@ -13,7 +13,7 @@ export function Header() {
                             EzequielCode
                         </a>
                     </Link>
-                    <ul className="d-flex gap-5 m-0">
+                    <ul className="d-none d-lg-flex gap-5 m-0">
                         <Link href="/">
                             <a>Home</a>
                         </Link>

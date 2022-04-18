@@ -1,6 +1,7 @@
 .about {
     background: #151515;
-    height: 624px;
+    min-height: 624px;
+    padding: 80px 0 !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +42,8 @@
 .group_buttons {
     margin-top: 48px;
     button {
-        width: 220px;
+        flex: 1;
+        max-width: 220px;
         height: 48px;
         display: flex;
         align-items: center;
@@ -60,5 +62,11 @@
     svg {
         font-size: 1.4rem;
         color: var(--main);
+    }
+}
+@media (max-width: 720px) {
+    .avatar {
+        width: 200px;
+        height: 200px;
     }
 }

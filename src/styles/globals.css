@@ -36,7 +36,7 @@ a {
   animation: blinkCursor 800ms infinite normal, typing 4s steps(80) normal;
 
 }
-@keyframes blinkCursor{
+@keyframes blinkCursor {
   from {
       border-right-color: rgba(255, 255, 255, .75);
   }
@@ -52,3 +52,4 @@ a {
     width: 464px;
   }
 }
+

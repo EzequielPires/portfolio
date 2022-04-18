@@ -1,5 +1,5 @@
 .technologies {
-    height: 624px;
+    min-height: 624px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,9 @@
     }
 }
 .card {
-    width: 200px;
+    flex: 1;
+    max-width: 200;
+    min-width: 164px;
     height: 200px;
     display: flex;
     align-items: center;
