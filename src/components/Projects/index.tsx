@@ -25,7 +25,7 @@ export function Projects() {
                     <CardProject
                         title={"Em Lar"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius."}
-                        link={"https://emlar.com.br/"}
+                        link={"https://em-lar.vercel.app/"}
                         image={EmLar.src}
                     />
                     <CardProject
